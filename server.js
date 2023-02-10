@@ -20,6 +20,7 @@ const certificateRoutes = require("./routes/certificate");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
+console.log(process.env.PORT);
 app.use(
   cors({
     origin: [
@@ -37,7 +38,7 @@ app.use("/project", projectRoutes);
 app.use("/certificate", certificateRoutes);
 
 
-const PORT = process.env.PORT || 8000;
+const PORT =  8080;
 
 mongoose.connection.once('open', () => {
   console.log('Connection to MongooseDB');

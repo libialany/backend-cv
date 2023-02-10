@@ -4,8 +4,8 @@
   "description": "Project Backend",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "dev:start": "nodemon test.js"
+    "start": "node server.js",
+    "dev:start": "node test.js"
   },
   "author": "Samarpan Dasgupta",
   "license": "MIT",

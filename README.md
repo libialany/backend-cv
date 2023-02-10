@@ -5,7 +5,7 @@
 *docker hub you can find libiamel/cv-back-app.*
 
 ### Important
-
+add your secrets to your terminal or t fly.io.
 ```
 ACCESS_KEY_ID=
 SECRET_ACCESS_KEY=
